@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
 
   var quoteLabel = document.getElementById("quote-label");
-  quoteLabel.textContent = window.quotes;
+
+  for (var i = 0; i < window.quotes.length; i++) {
+    quoteLabel.textContent = window.quotes[i].quote;
+  }
 })
