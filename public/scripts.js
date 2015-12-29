@@ -7,11 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     quoteLabel.textContent = window.quotes[i].quote;
   }
 
-  var quoteWidth = parseFloat(style.getPropertyValue('margin-left').replace('px', ''))
-  var quoteLeftMargin = parseFloat(style.getPropertyValue('width').replace('px', ''))
-  var leftMargin = quoteWidth + quoteLeftMargin
-
-  console.log(leftMargin)
-
-  authorLabel.style.marginLeft = leftMargin + "px"
+  var leftMargin = 0.5 * quoteLabel.offsetWidth + quoteLabel.offsetLeft - authorLabel.offsetWidth;
+  console.log(quoteLabel.offsetWidth)
+  console.log(quoteLabel.offsetLeft)
+  authorLabel.style.marginLeft = leftMargin + "px";
 })
