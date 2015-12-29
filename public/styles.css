@@ -1,0 +1,52 @@
+
+html {
+  height: 100%;
+  width: 100;
+}
+
+body {
+  background-color: #BCF378;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#quote-label {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 40vh;
+  margin-left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+#author-label {
+  display: inline-block;
+  text-align: right;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+#social-label {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 12.5px;
+  transform: translate(-50%, 0);
+}
+
+.general-quote {
+  color: white;
+  text-align: center;
+}
+
+.social-links {
+  color: white;
+}
