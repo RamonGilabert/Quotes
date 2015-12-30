@@ -44,5 +44,10 @@ document.addEventListener("DOMContentLoaded", function() {
     body.addEventListener("click", buildQuoteInterval);
   }, 2000);
 
-  buildQuoteInterval();
+  quoteLabel.style.animationName = "animationIn";
+  quoteLabel.style.animationDuration = "0.35s";
+
+  window.setTimeout(function() {
+    buildQuoteInterval();
+  }, 2500);
 })
