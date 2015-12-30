@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:700italic,400italic,300italic);
+
+html {
+  font-family: 'Merriweather', serif;
+  height: 100%;
+  width: 100;
+}
+
+body {
+  background-color: #BCF378;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  -moz-transition: all .35s ease-in;
+  -o-transition: all .35s ease-in;
+  -webkit-transition: all .35s ease-in;
+  transition: all .35s ease-in;
+}
+
+#quote-label {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 40vh;
+  margin-left: 50vw;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-style: italic;
+}
+
+#author-label {
+  display: inline-block;
+  text-align: right;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 50vw;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-style: italic;
+}
+
+#social-label {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 12.5px;
+  transform: translate(-50%, 0);
+  font-style: italic;
+}
+
+.general-quote {
+  color: white;
+  text-align: center;
+}
+
+.social-links {
+  color: white;
+}
+
+/* Animations */
+
+@keyframes animationOut {
+    0% { opacity: 1 }
+    100% { opacity: 0 }
+}
+
+@keyframes animationIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
