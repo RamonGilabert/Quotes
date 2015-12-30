@@ -1,22 +1,34 @@
 var quotes = [
   {
-    quote: "This is going to be great!",
-    author: "Ramon Gilabert"
+    quote: "It has become appallingly obvious that our technology has exceeded our humanity.",
+    author: "Albert Einstein"
   },
   {
-    quote: "This is going to be great! II",
-    author: "Ramon Gilabert II"
+    quote: "Technology is anything that wasn’t around when you were born.",
+    author: "Alan Kay"
   },
   {
-    quote: "This is going to be great! III",
-    author: "Ramon Gilabert III"
+    quote: "Any sufficiently advanced technology is equivalent to magic",
+    author: "Arthur C. Clarke"
   },
   {
-    quote: "This is going to be great! IV",
-    author: "Ramon Gilabert IV"
+    quote: "Technology is a word that describes something that doesn’t work yet",
+    author: "Douglas Adams"
   },
   {
-    quote: "This is going to be great! V",
-    author: "Ramon Gilabert V"
+    quote: "Life is fragile. We're not guaranteed a tomorrow so give it everything you've got",
+    author: "Tim Cook"
+  },
+  {
+    quote: "Let your joy be in your journey - not in some distant goal",
+    author: "Tim Cook"
+  },
+  {
+    quote: "My favorite things in life don't cost any money. It's really clear that the most precious resource we all have is time",
+    author: "Steve Jobs"
+  },
+  {
+    quote: "Stay hungry, stay foolish",
+    author: "Steve Jobs"
   }
 ]

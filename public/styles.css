@@ -16,6 +16,10 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
 
 #quote-label {
@@ -56,4 +60,16 @@ body {
 
 .social-links {
   color: white;
+}
+
+/* Animations */
+
+@keyframes animationOut {
+    0% { opacity: 1 }
+    100% { opacity: 0 }
+}
+
+@keyframes animationIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
 }
