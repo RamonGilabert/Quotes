@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:700italic,400italic,300italic);
 
 html {
+  font-family: 'Merriweather', serif;
   height: 100%;
   width: 100;
 }
@@ -22,6 +24,8 @@ body {
   margin-top: 40vh;
   margin-left: 50vw;
   transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-style: italic;
 }
 
 #author-label {
@@ -31,6 +35,8 @@ body {
   margin-top: 10px;
   margin-left: 50vw;
   transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-style: italic;
 }
 
 #social-label {
@@ -40,6 +46,7 @@ body {
   left: 50%;
   bottom: 12.5px;
   transform: translate(-50%, 0);
+  font-style: italic;
 }
 
 .general-quote {

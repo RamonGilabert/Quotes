@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var colorNumber = Math.floor(Math.random() * colors.length);
     var color = colors[colorNumber];
 
-    quoteLabel.textContent = quotes[quoteNumber].quote;
+    quoteLabel.textContent = "- " + quotes[quoteNumber].quote + " -";
     authorLabel.textContent = quotes[quoteNumber].author;
     body.style.backgroundColor = color;
 
